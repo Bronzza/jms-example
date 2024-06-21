@@ -8,14 +8,17 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.example</groupId>
 	<artifactId>jms-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jms-example</name>
 	<description>JMS example</description>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -26,10 +29,6 @@
 <!--			<artifactId>artemis-server</artifactId>-->
 <!--		</dependency>-->
 
-<!--		<dependency>-->
-<!--			<groupId>org.apache.activemq</groupId>-->
-<!--			<artifactId>artemis-jms-server</artifactId>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
